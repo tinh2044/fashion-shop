@@ -1,5 +1,5 @@
 :root {
-    --primary-color:#f53e2d;
+    --primary-color:#007bff;
     --text-color: #333; 
     --black-color: #000;
     --white-color: #fff;
@@ -184,11 +184,3 @@ html{
 .pagination-item__icon {
 
 }
-
-/* Validation */
-.form-group.invalid .form-message {
-    color: #f33a58;
-  }
-  .form-group.invalid .form-control {
-    border-color: #f33a58;
-  }

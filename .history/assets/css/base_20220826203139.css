@@ -1,5 +1,4 @@
 :root {
-    --primary-color:#f53e2d;
     --text-color: #333; 
     --black-color: #000;
     --white-color: #fff;
@@ -73,9 +72,8 @@ html{
     top: 0;
     left: 0;
     right: 0;
-    bottom: 0;  
-    display:none;
-    z-index: 5;
+    bottom: 0;
+    display: flex;   
     position: fixed;
     animation: fadeIn linear 0.2s;
     
@@ -127,7 +125,7 @@ html{
 }
 .btn.btn--primary {
     color: var(--white-color);
-    background-color:var(--primary-color);
+    background-color:#f53e2d;
 }
 /* Selection */
 .select-input {
@@ -159,7 +157,7 @@ html{
     align-items: center;
 }
 .pagination-item--active.pagination-item {
-    background-color:var(--primary-color);
+    background-color:#f53e2d;
     color: var(--white-color);
 }
 .pagination-item--active.pagination-item:hover {
@@ -184,11 +182,3 @@ html{
 .pagination-item__icon {
 
 }
-
-/* Validation */
-.form-group.invalid .form-message {
-    color: #f33a58;
-  }
-  .form-group.invalid .form-control {
-    border-color: #f33a58;
-  }
