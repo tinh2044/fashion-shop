@@ -297,11 +297,11 @@ function reder() {
     var htmls = listNotifications.map((listNotification) => {
         return `
         <li class="header__notifi-item">
-            <a href="header__notifi-link" class="header__notifi-link">
-            <img src="${listNotification.img}" alt="" class="header__notifi-img">
-                <div class="header__notifi-info">
-                    <span class="header__notifi-desc">${listNotification.description}</span>
-                    <span class="header__notifi-date">${listNotification.date}</span>
+        <a href="header__notifi-link" class="header__notifi-link">
+            <img src="${listNotification.img}">
+            <div class="header__notifi-info">
+                <span class="header__notifi-desc">${listNotification.description}</span>
+                <span class="header__notifi-date">${listNotification.date}</span>
             </div>
         </a>
     </li> 
@@ -311,124 +311,9 @@ function reder() {
 
 
    }
-    function rederListCart() {
-        const wrapCart =$('.header__cart-list-product')
-        var listCartProducts = [
-            {
-                img: 'https://cf.shopee.vn/file/e00c554ab3e8e04ecfa0258acc4d01f0_tn',
-                name:'Sản phẩm tốt chất lượng',
-                price: '1.300.222đ',
-                quantity: '4',
-                type:'Áo Khoác'
-            },
-            {
-                img: 'https://cf.shopee.vn/file/e00c554ab3e8e04ecfa0258acc4d01f0_tn',
-                name:'Sản phẩm tốt chất lượng',
-                price: '1.300.222đ',
-                quantity: '4',
-                type:'Áo Khoác'
-            },
-            {
-                img: 'https://cf.shopee.vn/file/e00c554ab3e8e04ecfa0258acc4d01f0_tn',
-                name:'Sản phẩm tốt chất lượng',
-                price: '1.300.222đ',
-                quantity: '4',
-                type:'Áo Khoác'
-            },
-            {
-                img: 'https://cf.shopee.vn/file/e00c554ab3e8e04ecfa0258acc4d01f0_tn',
-                name:'Sản phẩm tốt chất lượng',
-                price: '1.300.222đ',
-                quantity: '4',
-                type:'Áo Khoác'
-            },
-            {
-                img: 'https://cf.shopee.vn/file/e00c554ab3e8e04ecfa0258acc4d01f0_tn',
-                name:'Sản phẩm tốt chất lượng',
-                price: '1.300.222đ',
-                quantity: '4',
-                type:'Áo Khoác'
-            },
-            {
-                img: 'https://cf.shopee.vn/file/e00c554ab3e8e04ecfa0258acc4d01f0_tn',
-                name:'Sản phẩm tốt chất lượng',
-                price: '1.300.222đ',
-                quantity: '4',
-                type:'Áo Khoác'
-            },
-            {
-                img: 'https://cf.shopee.vn/file/e00c554ab3e8e04ecfa0258acc4d01f0_tn',
-                name:'Sản phẩm tốt chất lượng',
-                price: '1.300.222đ',
-                quantity: '4',
-                type:'Áo Khoác'
-            },
-            {
-                img: 'https://cf.shopee.vn/file/e00c554ab3e8e04ecfa0258acc4d01f0_tn',
-                name:'Sản phẩm tốt chất lượng',
-                price: '1.300.222đ',
-                quantity: '4',
-                type:'Áo Khoác'
-            },
-            {
-                img: 'https://cf.shopee.vn/file/e00c554ab3e8e04ecfa0258acc4d01f0_tn',
-                name:'Sản phẩm tốt chất lượng',
-                price: '1.300.222đ',
-                quantity: '4',
-                type:'Áo Khoác'
-            },
-            {
-                img: 'https://cf.shopee.vn/file/e00c554ab3e8e04ecfa0258acc4d01f0_tn',
-                name:'Sản phẩm tốt chất lượng',
-                price: '1.300.222đ',
-                quantity: '4',
-                type:'Áo Khoác'
-            },
-            {
-                img: 'https://cf.shopee.vn/file/e00c554ab3e8e04ecfa0258acc4d01f0_tn',
-                name:'Sản phẩm tốt chất lượng',
-                price: '1.300.222đ',
-                quantity: '4',
-                type:'Áo Khoác'
-            },
-            {
-                img: 'https://cf.shopee.vn/file/e00c554ab3e8e04ecfa0258acc4d01f0_tn',
-                name:'Sản phẩm tốt chất lượng',
-                price: '1.300.222đ',
-                quantity: '4',
-                type:'Áo Khoác'
-            },            
-        ]
-        var htmls = listCartProducts.map((listCartProduct) => {
-            return `
-                <li class="header__cart-item-product">
-                    <img src="${listCartProduct.img}" alt="" class="header__cart-item-img">
-                    <div class="header__cart-item-info">
-                        <div class="header__cart-item-desc">
-                            <h5 class="header__cart-item-name">${listCartProduct.name}</h5>
-                            <div class="header__cart-price-warp">
-                                <span class="header__cart-item-price">${listCartProduct.price}</span>
-                                <span class="header__cart-item-multiphy">x</span>
-                                <span class="header__cart-item-quantity">${listCartProduct.quantity}</span>
-                            </div>
-                        </div>
-                        <div class="header__cart-item-body">
-                            <span class="header__cart-item-type">Phân loại:${listCartProduct.type}</span>
-                            <span class="header__cart-item-delete">Xóa</span>  
-                        </div>
-                    </div>
-                </li>  
-                `
-        })
-        wrapCart.innerHTML = htmls.join('')
-    }
-
-
-
-
 
     rederNotification()
-     rederListCart()
+    // rederListCart()
     // rederProduct()
 }
 

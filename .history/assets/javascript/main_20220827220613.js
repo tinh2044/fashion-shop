@@ -399,36 +399,36 @@ function reder() {
                 type:'Áo Khoác'
             },            
         ]
-        var htmls = listCartProducts.map((listCartProduct) => {
-            return `
-                <li class="header__cart-item-product">
-                    <img src="${listCartProduct.img}" alt="" class="header__cart-item-img">
-                    <div class="header__cart-item-info">
-                        <div class="header__cart-item-desc">
-                            <h5 class="header__cart-item-name">${listCartProduct.name}</h5>
-                            <div class="header__cart-price-warp">
-                                <span class="header__cart-item-price">${listCartProduct.price}</span>
-                                <span class="header__cart-item-multiphy">x</span>
-                                <span class="header__cart-item-quantity">${listCartProduct.quantity}</span>
-                            </div>
-                        </div>
-                        <div class="header__cart-item-body">
-                            <span class="header__cart-item-type">Phân loại:${listCartProduct.type}</span>
-                            <span class="header__cart-item-delete">Xóa</span>  
+    }
+    var htmls = listCartProducts.map((listCartProduct) => {
+        return `
+            <li class="header__cart-item-product">
+                <img src="${listCartProduct.img}" alt="" class="header__cart-item-img">
+                <div class="header__cart-item-info">
+                    <div class="header__cart-item-desc">
+                        <h5 class="header__cart-item-name">${listCartProduct.name}</h5>
+                        <div class="header__cart-price-warp">
+                            <span class="header__cart-item-price">${listCartProduct.price}</span>
+                            <span class="header__cart-item-multiphy">x</span>
+                            <span class="header__cart-item-quantity">${listCartProduct.quantity}</span>
                         </div>
                     </div>
-                </li>  
-                `
-        })
-        wrapCart.innerHTML = htmls.join('')
-    }
+                    <div class="header__cart-item-body">
+                        <span class="header__cart-item-type">Phân loại:${listCartProduct.type}</span>
+                        <span class="header__cart-item-delete">Xóa</span>  
+                    </div>
+                </div>
+            </li>  
+            `
+    })
+    wrapCart.innerHTML = htmls.join('')
 
 
 
 
 
     rederNotification()
-     rederListCart()
+    // rederListCart()
     // rederProduct()
 }
 

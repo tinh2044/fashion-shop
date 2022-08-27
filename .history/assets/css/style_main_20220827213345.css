@@ -287,7 +287,7 @@
 .header__notifi-info {
     margin-left: 12px;
 }
-.header__notifi-desc {
+.header__notifi-name {
     display: block;
     font-weight:300;
     line-height: 1.3;

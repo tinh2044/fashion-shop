@@ -91,25 +91,9 @@ function Validator(selector) {
             }
         }
     }
-
-    // Get  Sibling Element
-    function getSiblingElement (element,selector) {
-        while (element.nextElementSibling) {
-            if (element.nextElementSibling.matches(selector)) {
-                return element.nextElementSibling
-            } 
-            element = element.nextElementSibling
-        }
-        
-    }
     // Handle submit event
-    const modal = $('.modal')
-    const confirmBtn = getSiblingElement(formElement,'.auth-form__controls').querySelector('.btn.btn--primary')
-    const backBtn = getSiblingElement(formElement,'.auth-form__controls').querySelector('.btn.auth-form__control-back')
-    // console.log(backBtn)
-    backBtn.onclick =()=> {
-        modal.style.display = ' none'
-    }
+    
+    const confirmBtn = formElement.nextElementSibling.nextElementSibling.querySelector('.btn--primary')
     confirmBtn.onclick = function (event) {
         // event.preventDefault()
         var isValid = true
@@ -120,8 +104,6 @@ function Validator(selector) {
             isValid =false;
           }
         }
-        // Handle User Click Back Button
-        
         // When no error
         if (isValid) {
             hasValue =true
@@ -165,9 +147,7 @@ function Validator(selector) {
         }
     }
 }
-
-
-function handleLoginAndRegister() {
+// Get Elements From DOM To Handle Login And Register
 const loginBtn = $('.header__navbar-item-bold-2')
 const registerBtn = $('.header__navbar-item-bold-1')
 const form_register = $('#form-register')
@@ -244,193 +224,25 @@ function loginAndRegister(form_1,form_2) {
     }
 }
 
-
- handleLogin()
- loginAccount()
- logOut()
- handleRegister()
-}
-
-
-
-
 // Handle Navbar
+const navbarBtn = $('.header__navbar-bar-option')
+const navbar = $('.header__bar-mobile-tablet')
+var isOpen = false
 function handleNavbar() {
-    const navbarBtn = $('.header__navbar-bar-option')
-    const navbar = $('.header__bar-mobile-tablet')
-    var isOpen = false
     navbarBtn.onclick = () => {
         if (isOpen) {
             isOpen = !isOpen
-            navbar.style.display = 'none'
+            navbar.style.display = 'block'
         } else {
             isOpen = !isOpen
-            navbar.style.display = 'block'
+            navbar.style.display = 'none'
 
         }
     }
 }
 
 
-function reder() {
-    
-   function rederNotification() {
-     
-    var listNotifications = [
-       {
-        img: 'https://cf.shopee.vn/file/0469a082f14004eaf44093929d06ad93_tn',
-        description: 'đã được xác nhận. Vui lòng kiểm tra thời gian nhận hàng dự kiến trong phần chi tiết đơn hàng nhé!',
-        date: '12/23/2004'
-       },
-       {
-        img: 'https://cf.shopee.vn/file/0469a082f14004eaf44093929d06ad93_tn',
-        description: 'đã được xác nhận. Vui lòng kiểm tra thời gian nhận hàng dự kiến trong phần chi tiết đơn hàng nhé!',
-        date: '12/23/2004'
-       },
-       {
-        img: 'https://cf.shopee.vn/file/0469a082f14004eaf44093929d06ad93_tn',
-        description: 'đã được xác nhận. Vui lòng kiểm tra thời gian nhận hàng dự kiến trong phần chi tiết đơn hàng nhé!',
-        date: '12/23/2004'
-       },
-    ]
-    const wrapNotifications = $('.header__notifi-list')
-    var htmls = listNotifications.map((listNotification) => {
-        return `
-        <li class="header__notifi-item">
-            <a href="header__notifi-link" class="header__notifi-link">
-            <img src="${listNotification.img}" alt="" class="header__notifi-img">
-                <div class="header__notifi-info">
-                    <span class="header__notifi-desc">${listNotification.description}</span>
-                    <span class="header__notifi-date">${listNotification.date}</span>
-            </div>
-        </a>
-    </li> 
-        `
-    })
-    wrapNotifications.innerHTML = htmls.join('')
 
-
-   }
-    function rederListCart() {
-        const wrapCart =$('.header__cart-list-product')
-        var listCartProducts = [
-            {
-                img: 'https://cf.shopee.vn/file/e00c554ab3e8e04ecfa0258acc4d01f0_tn',
-                name:'Sản phẩm tốt chất lượng',
-                price: '1.300.222đ',
-                quantity: '4',
-                type:'Áo Khoác'
-            },
-            {
-                img: 'https://cf.shopee.vn/file/e00c554ab3e8e04ecfa0258acc4d01f0_tn',
-                name:'Sản phẩm tốt chất lượng',
-                price: '1.300.222đ',
-                quantity: '4',
-                type:'Áo Khoác'
-            },
-            {
-                img: 'https://cf.shopee.vn/file/e00c554ab3e8e04ecfa0258acc4d01f0_tn',
-                name:'Sản phẩm tốt chất lượng',
-                price: '1.300.222đ',
-                quantity: '4',
-                type:'Áo Khoác'
-            },
-            {
-                img: 'https://cf.shopee.vn/file/e00c554ab3e8e04ecfa0258acc4d01f0_tn',
-                name:'Sản phẩm tốt chất lượng',
-                price: '1.300.222đ',
-                quantity: '4',
-                type:'Áo Khoác'
-            },
-            {
-                img: 'https://cf.shopee.vn/file/e00c554ab3e8e04ecfa0258acc4d01f0_tn',
-                name:'Sản phẩm tốt chất lượng',
-                price: '1.300.222đ',
-                quantity: '4',
-                type:'Áo Khoác'
-            },
-            {
-                img: 'https://cf.shopee.vn/file/e00c554ab3e8e04ecfa0258acc4d01f0_tn',
-                name:'Sản phẩm tốt chất lượng',
-                price: '1.300.222đ',
-                quantity: '4',
-                type:'Áo Khoác'
-            },
-            {
-                img: 'https://cf.shopee.vn/file/e00c554ab3e8e04ecfa0258acc4d01f0_tn',
-                name:'Sản phẩm tốt chất lượng',
-                price: '1.300.222đ',
-                quantity: '4',
-                type:'Áo Khoác'
-            },
-            {
-                img: 'https://cf.shopee.vn/file/e00c554ab3e8e04ecfa0258acc4d01f0_tn',
-                name:'Sản phẩm tốt chất lượng',
-                price: '1.300.222đ',
-                quantity: '4',
-                type:'Áo Khoác'
-            },
-            {
-                img: 'https://cf.shopee.vn/file/e00c554ab3e8e04ecfa0258acc4d01f0_tn',
-                name:'Sản phẩm tốt chất lượng',
-                price: '1.300.222đ',
-                quantity: '4',
-                type:'Áo Khoác'
-            },
-            {
-                img: 'https://cf.shopee.vn/file/e00c554ab3e8e04ecfa0258acc4d01f0_tn',
-                name:'Sản phẩm tốt chất lượng',
-                price: '1.300.222đ',
-                quantity: '4',
-                type:'Áo Khoác'
-            },
-            {
-                img: 'https://cf.shopee.vn/file/e00c554ab3e8e04ecfa0258acc4d01f0_tn',
-                name:'Sản phẩm tốt chất lượng',
-                price: '1.300.222đ',
-                quantity: '4',
-                type:'Áo Khoác'
-            },
-            {
-                img: 'https://cf.shopee.vn/file/e00c554ab3e8e04ecfa0258acc4d01f0_tn',
-                name:'Sản phẩm tốt chất lượng',
-                price: '1.300.222đ',
-                quantity: '4',
-                type:'Áo Khoác'
-            },            
-        ]
-        var htmls = listCartProducts.map((listCartProduct) => {
-            return `
-                <li class="header__cart-item-product">
-                    <img src="${listCartProduct.img}" alt="" class="header__cart-item-img">
-                    <div class="header__cart-item-info">
-                        <div class="header__cart-item-desc">
-                            <h5 class="header__cart-item-name">${listCartProduct.name}</h5>
-                            <div class="header__cart-price-warp">
-                                <span class="header__cart-item-price">${listCartProduct.price}</span>
-                                <span class="header__cart-item-multiphy">x</span>
-                                <span class="header__cart-item-quantity">${listCartProduct.quantity}</span>
-                            </div>
-                        </div>
-                        <div class="header__cart-item-body">
-                            <span class="header__cart-item-type">Phân loại:${listCartProduct.type}</span>
-                            <span class="header__cart-item-delete">Xóa</span>  
-                        </div>
-                    </div>
-                </li>  
-                `
-        })
-        wrapCart.innerHTML = htmls.join('')
-    }
-
-
-
-
-
-    rederNotification()
-     rederListCart()
-    // rederProduct()
-}
 
 
 
@@ -443,10 +255,11 @@ function reder() {
 
 
 function start () {
-    
-    reder()
+    logOut()
 
-    handleLoginAndRegister()
+    handleLogin()
+
+    handleRegister()
 
     Validator('#register-form')
 
