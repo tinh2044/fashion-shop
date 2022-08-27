@@ -271,23 +271,24 @@ function handleNavbar() {
     }
 }
 
+
 function reder() {
      
     function rederNotification() {
      
     var listNotifications = [
        {
-        img: 'https://cf.shopee.vn/file/0469a082f14004eaf44093929d06ad93_tn',
+        img: https://cf.shopee.vn/file/0469a082f14004eaf44093929d06ad93_tn',
         description: 'đã được xác nhận. Vui lòng kiểm tra thời gian nhận hàng dự kiến trong phần chi tiết đơn hàng nhé!',
         date: '12/23/2004'
        },
        {
-        img: 'https://cf.shopee.vn/file/0469a082f14004eaf44093929d06ad93_tn',
+        img: https://cf.shopee.vn/file/0469a082f14004eaf44093929d06ad93_tn',
         description: 'đã được xác nhận. Vui lòng kiểm tra thời gian nhận hàng dự kiến trong phần chi tiết đơn hàng nhé!',
         date: '12/23/2004'
        },
        {
-        img: 'https://cf.shopee.vn/file/0469a082f14004eaf44093929d06ad93_tn',
+        img: https://cf.shopee.vn/file/0469a082f14004eaf44093929d06ad93_tn',
         description: 'đã được xác nhận. Vui lòng kiểm tra thời gian nhận hàng dự kiến trong phần chi tiết đơn hàng nhé!',
         date: '12/23/2004'
        },
@@ -314,84 +315,84 @@ function reder() {
         const wrapCart =$('.header__cart-list-product')
         var listCartProducts = [
             {
-                img: 'https://cf.shopee.vn/file/e00c554ab3e8e04ecfa0258acc4d01f0_tn',
+                img: https://cf.shopee.vn/file/e00c554ab3e8e04ecfa0258acc4d01f0_tn',
                 name:'Sản phẩm tốt chất lượng',
                 price: '1.300.222đ',
                 quantity: '4',
                 type:'Áo Khoác'
             },
             {
-                img: 'https://cf.shopee.vn/file/e00c554ab3e8e04ecfa0258acc4d01f0_tn',
+                img: https://cf.shopee.vn/file/e00c554ab3e8e04ecfa0258acc4d01f0_tn',
                 name:'Sản phẩm tốt chất lượng',
                 price: '1.300.222đ',
                 quantity: '4',
                 type:'Áo Khoác'
             },
             {
-                img: 'https://cf.shopee.vn/file/e00c554ab3e8e04ecfa0258acc4d01f0_tn',
+                img: https://cf.shopee.vn/file/e00c554ab3e8e04ecfa0258acc4d01f0_tn',
                 name:'Sản phẩm tốt chất lượng',
                 price: '1.300.222đ',
                 quantity: '4',
                 type:'Áo Khoác'
             },
             {
-                img: 'https://cf.shopee.vn/file/e00c554ab3e8e04ecfa0258acc4d01f0_tn',
+                img: https://cf.shopee.vn/file/e00c554ab3e8e04ecfa0258acc4d01f0_tn',
                 name:'Sản phẩm tốt chất lượng',
                 price: '1.300.222đ',
                 quantity: '4',
                 type:'Áo Khoác'
             },
             {
-                img: 'https://cf.shopee.vn/file/e00c554ab3e8e04ecfa0258acc4d01f0_tn',
+                img: https://cf.shopee.vn/file/e00c554ab3e8e04ecfa0258acc4d01f0_tn',
                 name:'Sản phẩm tốt chất lượng',
                 price: '1.300.222đ',
                 quantity: '4',
                 type:'Áo Khoác'
             },
             {
-                img: 'https://cf.shopee.vn/file/e00c554ab3e8e04ecfa0258acc4d01f0_tn',
+                img: https://cf.shopee.vn/file/e00c554ab3e8e04ecfa0258acc4d01f0_tn',
                 name:'Sản phẩm tốt chất lượng',
                 price: '1.300.222đ',
                 quantity: '4',
                 type:'Áo Khoác'
             },
             {
-                img: 'https://cf.shopee.vn/file/e00c554ab3e8e04ecfa0258acc4d01f0_tn',
+                img: https://cf.shopee.vn/file/e00c554ab3e8e04ecfa0258acc4d01f0_tn',
                 name:'Sản phẩm tốt chất lượng',
                 price: '1.300.222đ',
                 quantity: '4',
                 type:'Áo Khoác'
             },
             {
-                img: 'https://cf.shopee.vn/file/e00c554ab3e8e04ecfa0258acc4d01f0_tn',
+                img: https://cf.shopee.vn/file/e00c554ab3e8e04ecfa0258acc4d01f0_tn',
                 name:'Sản phẩm tốt chất lượng',
                 price: '1.300.222đ',
                 quantity: '4',
                 type:'Áo Khoác'
             },
             {
-                img: 'https://cf.shopee.vn/file/e00c554ab3e8e04ecfa0258acc4d01f0_tn',
+                img: https://cf.shopee.vn/file/e00c554ab3e8e04ecfa0258acc4d01f0_tn',
                 name:'Sản phẩm tốt chất lượng',
                 price: '1.300.222đ',
                 quantity: '4',
                 type:'Áo Khoác'
             },
             {
-                img: 'https://cf.shopee.vn/file/e00c554ab3e8e04ecfa0258acc4d01f0_tn',
+                img: https://cf.shopee.vn/file/e00c554ab3e8e04ecfa0258acc4d01f0_tn',
                 name:'Sản phẩm tốt chất lượng',
                 price: '1.300.222đ',
                 quantity: '4',
                 type:'Áo Khoác'
             },
             {
-                img: 'https://cf.shopee.vn/file/e00c554ab3e8e04ecfa0258acc4d01f0_tn',
+                img: https://cf.shopee.vn/file/e00c554ab3e8e04ecfa0258acc4d01f0_tn',
                 name:'Sản phẩm tốt chất lượng',
                 price: '1.300.222đ',
                 quantity: '4',
                 type:'Áo Khoác'
             },
             {
-                img: 'https://cf.shopee.vn/file/e00c554ab3e8e04ecfa0258acc4d01f0_tn',
+                img: https://cf.shopee.vn/file/e00c554ab3e8e04ecfa0258acc4d01f0_tn',
                 name:'Sản phẩm tốt chất lượng',
                 price: '1.300.222đ',
                 quantity: '4',
@@ -781,364 +782,6 @@ function reder() {
                 priceFall: '28%',
                 desc: 'GIẢM'
             },
-        {
-            img: 'https://cf.shopee.vn/file/891eeed6ac60648d7c5371d5b0a29090_tn',
-            name: '[Siêu Phẩm 2021] Rubik 3x3x3 GAN 12 SERIES 3 phiên bản: Maglev & Gan 12M LEAP Stickerless không viền (Hãng Mod Nam châm)',
-            oldPrice:'1.250.000đ',
-            newPrice:'899.000đ',
-            sold: 'Đã bán 212',
-            band: 'GAN',
-            origin: 'China',
-            priceFall: '28%',
-            desc: 'GIẢM'
-        },
-        {
-            img: 'https://cf.shopee.vn/file/891eeed6ac60648d7c5371d5b0a29090_tn',
-            name: '[Siêu Phẩm 2021] Rubik 3x3x3 GAN 12 SERIES 3 phiên bản: Maglev & Gan 12M LEAP Stickerless không viền (Hãng Mod Nam châm)',
-            oldPrice:'1.250.000đ',
-            newPrice:'899.000đ',
-            sold: 'Đã bán 212',
-            band: 'GAN',
-            origin: 'China',
-            priceFall: '28%',
-            desc: 'GIẢM'
-        },
-        {
-            img: 'https://cf.shopee.vn/file/891eeed6ac60648d7c5371d5b0a29090_tn',
-            name: '[Siêu Phẩm 2021] Rubik 3x3x3 GAN 12 SERIES 3 phiên bản: Maglev & Gan 12M LEAP Stickerless không viền (Hãng Mod Nam châm)',
-            oldPrice:'1.250.000đ',
-            newPrice:'899.000đ',
-            sold: 'Đã bán 212',
-            band: 'GAN',
-            origin: 'China',
-            priceFall: '28%',
-            desc: 'GIẢM'
-        },
-        {
-            img: 'https://cf.shopee.vn/file/891eeed6ac60648d7c5371d5b0a29090_tn',
-            name: '[Siêu Phẩm 2021] Rubik 3x3x3 GAN 12 SERIES 3 phiên bản: Maglev & Gan 12M LEAP Stickerless không viền (Hãng Mod Nam châm)',
-            oldPrice:'1.250.000đ',
-            newPrice:'899.000đ',
-            sold: 'Đã bán 212',
-            band: 'GAN',
-            origin: 'China',
-            priceFall: '28%',
-            desc: 'GIẢM'
-        },
-    
-        {
-            img: 'https://cf.shopee.vn/file/891eeed6ac60648d7c5371d5b0a29090_tn',
-            name: '[Siêu Phẩm 2021] Rubik 3x3x3 GAN 12 SERIES 3 phiên bản: Maglev & Gan 12M LEAP Stickerless không viền (Hãng Mod Nam châm)',
-            oldPrice:'1.250.000đ',
-            newPrice:'899.000đ',
-            sold: 'Đã bán 212',
-            band: 'GAN',
-            origin: 'China',
-            priceFall: '28%',
-            desc: 'GIẢM'
-        },
-        {
-            img: 'https://cf.shopee.vn/file/891eeed6ac60648d7c5371d5b0a29090_tn',
-            name: '[Siêu Phẩm 2021] Rubik 3x3x3 GAN 12 SERIES 3 phiên bản: Maglev & Gan 12M LEAP Stickerless không viền (Hãng Mod Nam châm)',
-            oldPrice:'1.250.000đ',
-            newPrice:'899.000đ',
-            sold: 'Đã bán 212',
-            band: 'GAN',
-            origin: 'China',
-            priceFall: '28%',
-            desc: 'GIẢM'
-        },
-        {
-            img: 'https://cf.shopee.vn/file/891eeed6ac60648d7c5371d5b0a29090_tn',
-            name: '[Siêu Phẩm 2021] Rubik 3x3x3 GAN 12 SERIES 3 phiên bản: Maglev & Gan 12M LEAP Stickerless không viền (Hãng Mod Nam châm)',
-            oldPrice:'1.250.000đ',
-            newPrice:'899.000đ',
-            sold: 'Đã bán 212',
-            band: 'GAN',
-            origin: 'China',
-            priceFall: '28%',
-            desc: 'GIẢM'
-        },
-        {
-            img: 'https://cf.shopee.vn/file/891eeed6ac60648d7c5371d5b0a29090_tn',
-            name: '[Siêu Phẩm 2021] Rubik 3x3x3 GAN 12 SERIES 3 phiên bản: Maglev & Gan 12M LEAP Stickerless không viền (Hãng Mod Nam châm)',
-            oldPrice:'1.250.000đ',
-            newPrice:'899.000đ',
-            sold: 'Đã bán 212',
-            band: 'GAN',
-            origin: 'China',
-            priceFall: '28%',
-            desc: 'GIẢM'
-        },
-        {
-            img: 'https://cf.shopee.vn/file/891eeed6ac60648d7c5371d5b0a29090_tn',
-            name: '[Siêu Phẩm 2021] Rubik 3x3x3 GAN 12 SERIES 3 phiên bản: Maglev & Gan 12M LEAP Stickerless không viền (Hãng Mod Nam châm)',
-            oldPrice:'1.250.000đ',
-            newPrice:'899.000đ',
-            sold: 'Đã bán 212',
-            band: 'GAN',
-            origin: 'China',
-            priceFall: '28%',
-            desc: 'GIẢM'
-        },
-        {
-            img: 'https://cf.shopee.vn/file/891eeed6ac60648d7c5371d5b0a29090_tn',
-            name: '[Siêu Phẩm 2021] Rubik 3x3x3 GAN 12 SERIES 3 phiên bản: Maglev & Gan 12M LEAP Stickerless không viền (Hãng Mod Nam châm)',
-            oldPrice:'1.250.000đ',
-            newPrice:'899.000đ',
-            sold: 'Đã bán 212',
-            band: 'GAN',
-            origin: 'China',
-            priceFall: '28%',
-            desc: 'GIẢM'
-        },
-        {
-            img: 'https://cf.shopee.vn/file/891eeed6ac60648d7c5371d5b0a29090_tn',
-            name: '[Siêu Phẩm 2021] Rubik 3x3x3 GAN 12 SERIES 3 phiên bản: Maglev & Gan 12M LEAP Stickerless không viền (Hãng Mod Nam châm)',
-            oldPrice:'1.250.000đ',
-            newPrice:'899.000đ',
-            sold: 'Đã bán 212',
-            band: 'GAN',
-            origin: 'China',
-            priceFall: '28%',
-            desc: 'GIẢM'
-        },
-        {
-            img: 'https://cf.shopee.vn/file/891eeed6ac60648d7c5371d5b0a29090_tn',
-            name: '[Siêu Phẩm 2021] Rubik 3x3x3 GAN 12 SERIES 3 phiên bản: Maglev & Gan 12M LEAP Stickerless không viền (Hãng Mod Nam châm)',
-            oldPrice:'1.250.000đ',
-            newPrice:'899.000đ',
-            sold: 'Đã bán 212',
-            band: 'GAN',
-            origin: 'China',
-            priceFall: '28%',
-            desc: 'GIẢM'
-        },
-    
-        {
-            img: 'https://cf.shopee.vn/file/891eeed6ac60648d7c5371d5b0a29090_tn',
-            name: '[Siêu Phẩm 2021] Rubik 3x3x3 GAN 12 SERIES 3 phiên bản: Maglev & Gan 12M LEAP Stickerless không viền (Hãng Mod Nam châm)',
-            oldPrice:'1.250.000đ',
-            newPrice:'899.000đ',
-            sold: 'Đã bán 212',
-            band: 'GAN',
-            origin: 'China',
-            priceFall: '28%',
-            desc: 'GIẢM'
-        },
-        {
-            img: 'https://cf.shopee.vn/file/891eeed6ac60648d7c5371d5b0a29090_tn',
-            name: '[Siêu Phẩm 2021] Rubik 3x3x3 GAN 12 SERIES 3 phiên bản: Maglev & Gan 12M LEAP Stickerless không viền (Hãng Mod Nam châm)',
-            oldPrice:'1.250.000đ',
-            newPrice:'899.000đ',
-            sold: 'Đã bán 212',
-            band: 'GAN',
-            origin: 'China',
-            priceFall: '28%',
-            desc: 'GIẢM'
-        },
-        {
-            img: 'https://cf.shopee.vn/file/891eeed6ac60648d7c5371d5b0a29090_tn',
-            name: '[Siêu Phẩm 2021] Rubik 3x3x3 GAN 12 SERIES 3 phiên bản: Maglev & Gan 12M LEAP Stickerless không viền (Hãng Mod Nam châm)',
-            oldPrice:'1.250.000đ',
-            newPrice:'899.000đ',
-            sold: 'Đã bán 212',
-            band: 'GAN',
-            origin: 'China',
-            priceFall: '28%',
-            desc: 'GIẢM'
-        },
-        {
-            img: 'https://cf.shopee.vn/file/891eeed6ac60648d7c5371d5b0a29090_tn',
-            name: '[Siêu Phẩm 2021] Rubik 3x3x3 GAN 12 SERIES 3 phiên bản: Maglev & Gan 12M LEAP Stickerless không viền (Hãng Mod Nam châm)',
-            oldPrice:'1.250.000đ',
-            newPrice:'899.000đ',
-            sold: 'Đã bán 212',
-            band: 'GAN',
-            origin: 'China',
-            priceFall: '28%',
-            desc: 'GIẢM'
-        },
-    
-        {
-            img: 'https://cf.shopee.vn/file/891eeed6ac60648d7c5371d5b0a29090_tn',
-            name: '[Siêu Phẩm 2021] Rubik 3x3x3 GAN 12 SERIES 3 phiên bản: Maglev & Gan 12M LEAP Stickerless không viền (Hãng Mod Nam châm)',
-            oldPrice:'1.250.000đ',
-            newPrice:'899.000đ',
-            sold: 'Đã bán 212',
-            band: 'GAN',
-            origin: 'China',
-            priceFall: '28%',
-            desc: 'GIẢM'
-        },
-        {
-            img: 'https://cf.shopee.vn/file/891eeed6ac60648d7c5371d5b0a29090_tn',
-            name: '[Siêu Phẩm 2021] Rubik 3x3x3 GAN 12 SERIES 3 phiên bản: Maglev & Gan 12M LEAP Stickerless không viền (Hãng Mod Nam châm)',
-            oldPrice:'1.250.000đ',
-            newPrice:'899.000đ',
-            sold: 'Đã bán 212',
-            band: 'GAN',
-            origin: 'China',
-            priceFall: '28%',
-            desc: 'GIẢM'
-        },
-        {
-            img: 'https://cf.shopee.vn/file/891eeed6ac60648d7c5371d5b0a29090_tn',
-            name: '[Siêu Phẩm 2021] Rubik 3x3x3 GAN 12 SERIES 3 phiên bản: Maglev & Gan 12M LEAP Stickerless không viền (Hãng Mod Nam châm)',
-            oldPrice:'1.250.000đ',
-            newPrice:'899.000đ',
-            sold: 'Đã bán 212',
-            band: 'GAN',
-            origin: 'China',
-            priceFall: '28%',
-            desc: 'GIẢM'
-        },
-        {
-            img: 'https://cf.shopee.vn/file/891eeed6ac60648d7c5371d5b0a29090_tn',
-            name: '[Siêu Phẩm 2021] Rubik 3x3x3 GAN 12 SERIES 3 phiên bản: Maglev & Gan 12M LEAP Stickerless không viền (Hãng Mod Nam châm)',
-            oldPrice:'1.250.000đ',
-            newPrice:'899.000đ',
-            sold: 'Đã bán 212',
-            band: 'GAN',
-            origin: 'China',
-            priceFall: '28%',
-            desc: 'GIẢM'
-        },
-    
-        {
-            img: 'https://cf.shopee.vn/file/891eeed6ac60648d7c5371d5b0a29090_tn',
-            name: '[Siêu Phẩm 2021] Rubik 3x3x3 GAN 12 SERIES 3 phiên bản: Maglev & Gan 12M LEAP Stickerless không viền (Hãng Mod Nam châm)',
-            oldPrice:'1.250.000đ',
-            newPrice:'899.000đ',
-            sold: 'Đã bán 212',
-            band: 'GAN',
-            origin: 'China',
-            priceFall: '28%',
-            desc: 'GIẢM'
-        },
-        {
-            img: 'https://cf.shopee.vn/file/891eeed6ac60648d7c5371d5b0a29090_tn',
-            name: '[Siêu Phẩm 2021] Rubik 3x3x3 GAN 12 SERIES 3 phiên bản: Maglev & Gan 12M LEAP Stickerless không viền (Hãng Mod Nam châm)',
-            oldPrice:'1.250.000đ',
-            newPrice:'899.000đ',
-            sold: 'Đã bán 212',
-            band: 'GAN',
-            origin: 'China',
-            priceFall: '28%',
-            desc: 'GIẢM'
-        },
-        {
-            img: 'https://cf.shopee.vn/file/891eeed6ac60648d7c5371d5b0a29090_tn',
-            name: '[Siêu Phẩm 2021] Rubik 3x3x3 GAN 12 SERIES 3 phiên bản: Maglev & Gan 12M LEAP Stickerless không viền (Hãng Mod Nam châm)',
-            oldPrice:'1.250.000đ',
-            newPrice:'899.000đ',
-            sold: 'Đã bán 212',
-            band: 'GAN',
-            origin: 'China',
-            priceFall: '28%',
-            desc: 'GIẢM'
-        },
-        {
-            img: 'https://cf.shopee.vn/file/891eeed6ac60648d7c5371d5b0a29090_tn',
-            name: '[Siêu Phẩm 2021] Rubik 3x3x3 GAN 12 SERIES 3 phiên bản: Maglev & Gan 12M LEAP Stickerless không viền (Hãng Mod Nam châm)',
-            oldPrice:'1.250.000đ',
-            newPrice:'899.000đ',
-            sold: 'Đã bán 212',
-            band: 'GAN',
-            origin: 'China',
-            priceFall: '28%',
-            desc: 'GIẢM'
-        },
-        {
-            img: 'https://cf.shopee.vn/file/891eeed6ac60648d7c5371d5b0a29090_tn',
-            name: '[Siêu Phẩm 2021] Rubik 3x3x3 GAN 12 SERIES 3 phiên bản: Maglev & Gan 12M LEAP Stickerless không viền (Hãng Mod Nam châm)',
-            oldPrice:'1.250.000đ',
-            newPrice:'899.000đ',
-            sold: 'Đã bán 212',
-            band: 'GAN',
-            origin: 'China',
-            priceFall: '28%',
-            desc: 'GIẢM'
-        },
-        {
-            img: 'https://cf.shopee.vn/file/891eeed6ac60648d7c5371d5b0a29090_tn',
-            name: '[Siêu Phẩm 2021] Rubik 3x3x3 GAN 12 SERIES 3 phiên bản: Maglev & Gan 12M LEAP Stickerless không viền (Hãng Mod Nam châm)',
-            oldPrice:'1.250.000đ',
-            newPrice:'899.000đ',
-            sold: 'Đã bán 212',
-            band: 'GAN',
-            origin: 'China',
-            priceFall: '28%',
-            desc: 'GIẢM'
-        },
-        {
-            img: 'https://cf.shopee.vn/file/891eeed6ac60648d7c5371d5b0a29090_tn',
-            name: '[Siêu Phẩm 2021] Rubik 3x3x3 GAN 12 SERIES 3 phiên bản: Maglev & Gan 12M LEAP Stickerless không viền (Hãng Mod Nam châm)',
-            oldPrice:'1.250.000đ',
-            newPrice:'899.000đ',
-            sold: 'Đã bán 212',
-            band: 'GAN',
-            origin: 'China',
-            priceFall: '28%',
-            desc: 'GIẢM'
-        },
-        {
-            img: 'https://cf.shopee.vn/file/891eeed6ac60648d7c5371d5b0a29090_tn',
-            name: '[Siêu Phẩm 2021] Rubik 3x3x3 GAN 12 SERIES 3 phiên bản: Maglev & Gan 12M LEAP Stickerless không viền (Hãng Mod Nam châm)',
-            oldPrice:'1.250.000đ',
-            newPrice:'899.000đ',
-            sold: 'Đã bán 212',
-            band: 'GAN',
-            origin: 'China',
-            priceFall: '28%',
-            desc: 'GIẢM'
-        },
-    
-        {
-            img: 'https://cf.shopee.vn/file/891eeed6ac60648d7c5371d5b0a29090_tn',
-            name: '[Siêu Phẩm 2021] Rubik 3x3x3 GAN 12 SERIES 3 phiên bản: Maglev & Gan 12M LEAP Stickerless không viền (Hãng Mod Nam châm)',
-            oldPrice:'1.250.000đ',
-            newPrice:'899.000đ',
-            sold: 'Đã bán 212',
-            band: 'GAN',
-            origin: 'China',
-            priceFall: '28%',
-            desc: 'GIẢM'
-        },
-        {
-            img: 'https://cf.shopee.vn/file/891eeed6ac60648d7c5371d5b0a29090_tn',
-            name: '[Siêu Phẩm 2021] Rubik 3x3x3 GAN 12 SERIES 3 phiên bản: Maglev & Gan 12M LEAP Stickerless không viền (Hãng Mod Nam châm)',
-            oldPrice:'1.250.000đ',
-            newPrice:'899.000đ',
-            sold: 'Đã bán 212',
-            band: 'GAN',
-            origin: 'China',
-            priceFall: '28%',
-            desc: 'GIẢM'
-        },
-        {
-            img: 'https://cf.shopee.vn/file/891eeed6ac60648d7c5371d5b0a29090_tn',
-            name: '[Siêu Phẩm 2021] Rubik 3x3x3 GAN 12 SERIES 3 phiên bản: Maglev & Gan 12M LEAP Stickerless không viền (Hãng Mod Nam châm)',
-            oldPrice:'1.250.000đ',
-            newPrice:'899.000đ',
-            sold: 'Đã bán 212',
-            band: 'GAN',
-            origin: 'China',
-            priceFall: '28%',
-            desc: 'GIẢM'
-        },
-        {
-            img: 'https://cf.shopee.vn/file/891eeed6ac60648d7c5371d5b0a29090_tn',
-            name: '[Siêu Phẩm 2021] Rubik 3x3x3 GAN 12 SERIES 3 phiên bản: Maglev & Gan 12M LEAP Stickerless không viền (Hãng Mod Nam châm)',
-            oldPrice:'1.250.000đ',
-            newPrice:'899.000đ',
-            sold: 'Đã bán 212',
-            band: 'GAN',
-            origin: 'China',
-            priceFall: '28%',
-            desc: 'GIẢM'
-        }
-            
         ]
         var htmls = listProducts.map( listProduct => {
             return `
