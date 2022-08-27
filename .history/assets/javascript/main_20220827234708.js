@@ -131,17 +131,7 @@ function Validator(selector) {
                 }
                 else {
                     login.onclick = () => {
-                        const email = form_login.querySelector('input[name="email"]').value
-                        const password = form_login.querySelector('input[name="password"]').value
-                        var hasAccount = userAccounts.some(userAccount =>{
-                            return email === userAccount.email && password === userAccount.password
-                        })
-                        if (hasAccount) {
-                            modal.style.display = 'none'
-                            registerBtn.style.display = 'none'
-                            loginBtn.style.display = 'none'
-                            userAccount.style.display = 'flex'
-                        }    
+                        loginAccount()
                     }
                 }
             }
@@ -188,6 +178,9 @@ const userAccount = $('.header__navbar-user')
 const logOutBtn =$('.log-out')
 const login = form_login.querySelector('.btn--primary')
 const register = form_register.querySelector('.btn--primary')
+
+function handleLoginAndRegister() {
+
 var userAccounts = [
     {
         id:1,
@@ -195,7 +188,8 @@ var userAccounts = [
         password: '1234'
     }
 ]
-function handleLoginAndRegister() {
+
+
 // Handle Login
 function handleLogin() {
     loginBtn.onclick = () => {
@@ -208,6 +202,19 @@ function handleLogin() {
 }
 
 // Handle Login Account
+function loginAccount() {
+    const email = form_login.querySelector('input[name="email"]').value
+    const password = form_login.querySelector('input[name="password"]').value
+    var hasAccount = userAccounts.some(userAccount =>{
+        return email === userAccount.email && password === userAccount.password
+    })
+    if (hasAccount) {
+        modal.style.display = 'none'
+        registerBtn.style.display = 'none'
+        loginBtn.style.display = 'none'
+        userAccount.style.display = 'flex'
+    }
+}
 // handle log out
 function logOut() {
     logOutBtn.onclick = function() {
@@ -241,6 +248,7 @@ function loginAndRegister(form_1,form_2) {
 
 
  handleLogin()
+ loginAccount()
  logOut()
  handleRegister()
 }

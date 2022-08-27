@@ -188,6 +188,9 @@ const userAccount = $('.header__navbar-user')
 const logOutBtn =$('.log-out')
 const login = form_login.querySelector('.btn--primary')
 const register = form_register.querySelector('.btn--primary')
+
+function handleLoginAndRegister() {
+
 var userAccounts = [
     {
         id:1,
@@ -195,7 +198,8 @@ var userAccounts = [
         password: '1234'
     }
 ]
-function handleLoginAndRegister() {
+
+
 // Handle Login
 function handleLogin() {
     loginBtn.onclick = () => {
@@ -241,6 +245,7 @@ function loginAndRegister(form_1,form_2) {
 
 
  handleLogin()
+ loginAccount()
  logOut()
  handleRegister()
 }
