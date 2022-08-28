@@ -600,6 +600,9 @@
         min-width: 36px;
     }
     /* From Register and login */
+    #form-register {
+        width: 100%;
+    }
     .auth-form {
         width: 100%;
     }

@@ -258,7 +258,6 @@ function handleNavbar() {
         e.stopPropagation()
     }
     navbarBtn.onclick = (e) => {
-        e.stopPropagation()
         if (isOpen) {
             isOpen = !isOpen
             navbar.style.display = 'none'

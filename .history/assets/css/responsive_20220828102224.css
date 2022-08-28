@@ -388,13 +388,13 @@
 
     }
     .header__navbar-item {
-        padding: 24px 0;
+        padding: 54px 0;
         font-size: 2rem;
         height: 48px;
         font-weight: 450;
         align-items: center;
         border-bottom: 1px solid #ccc;
-        padding-left: 4px;
+        padding-left: 12px;
     }
     .header__navbar-item--separate::after{
         display: none;
@@ -423,16 +423,16 @@
     }
     /* Header_QR */
     .header__qr{
-        left: 102%;
-        width: 105%;
+        left: 100%;
+        width: 300px;
         top: 0%;
     
     }
     .header__qr-apps {
-        padding: 4px 0;
+        padding: 12px 0;
     }
     .header__download {
-        height: 20px;
+        height: 28px;
 
     }
     /* Notification */
@@ -443,8 +443,8 @@
         display: block;
     }
     .header__notifi {
-        top: 290%;
-        left:-2%;
+        top: -210%;
+        left: 100%;
     }
     .header__notifi-list {
         list-style: none;
@@ -470,21 +470,15 @@
     
     }
     .header__navbar-avatar {
-        width: 30px;
-        height: 30px;
+        width: 80px;
+        height: 80px;
         border-radius: 100%;
         border: 0.5px solid rgba(0,0,0,0.2);
     }
     .header__navbar-user-name {
         /* margin-left: 4px; */
         font-weight: 400;
-        font-size: 2rem;
-        height: 60px;
-        line-height: 60px;
-        overflow: hidden;
-        display: -webkit-box;
-        --webkit-box-orient: vertical;
-        --webkit-line-clamp: 1;
+        font-size: 3rem;
     }
     .header__navbar-user-menu {
         top: 100%;
@@ -508,8 +502,8 @@
     }
     .header__navbar-user-item a{
         display: block;
-        font-size: 2rem;
-        padding: 16px 10px;
+        font-size: 4rem;
+        padding: 32px 10px;
         font-weight:400;
         text-decoration: none;
         color: var(--white-color);
@@ -599,20 +593,7 @@
         font-size: 1.6rem;
         min-width: 36px;
     }
-    /* From Register and login */
-    .auth-form {
-        width: 100%;
-    }
-    .auth-form__socials {
-        flex-direction: column;
-        align-items: center;
-    }
-    .btn.auth-form__social-facebook{
-        margin-bottom: 12px;
-    }
-    .auth-form__controls {
-        margin-top: 18px;
-    }
+
 }
 @media (min-width: 1024px) {
     .hide-on-pc{

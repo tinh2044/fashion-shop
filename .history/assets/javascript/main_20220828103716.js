@@ -254,9 +254,6 @@ function handleNavbar() {
     const navbar = $('.header__bar-mobile-tablet')
     const navbarOverlay = $('.header__navbar-overlay')
     var isOpen = false
-    navbar.onclick = (e) => {
-        e.stopPropagation()
-    }
     navbarBtn.onclick = (e) => {
         e.stopPropagation()
         if (isOpen) {
