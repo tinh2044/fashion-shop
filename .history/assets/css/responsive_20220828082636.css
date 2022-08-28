@@ -165,7 +165,6 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        z-index: 5;
     }
     .header__navbar-bar-icon {
         margin-top:12px;

@@ -268,24 +268,6 @@ function handleNavbar() {
     }
 }
 
-function handleEvent (elementBtn,elementLayout) {
-        const btn = $(elementBtn)
-        const layout = $(elementLayout)
-        var isOpen = false
-        btn.onclick = () => {
-            if (isOpen) {
-                isOpen = !isOpen
-                layout.style.display = 'none'
-            } else {
-                isOpen = !isOpen
-                layout.style.display = 'block'
-    
-            }
-        }
-
-
-}
-
 function reder() {
      
     function rederNotification() {
@@ -1208,7 +1190,6 @@ function reder() {
 }
 
 
-    
 
 
 
@@ -1227,15 +1208,6 @@ function start () {
     Validator('#register-form')
 
     Validator('#login-form')
-    // Handle Qr Code 
-
-    handleEvent('.header__navbar-item--has-qr','.header__qr')
-    // Handle Notifications
-
-    handleEvent('.header__navbar-item-notifi','.header__notifi')
-    // Handle List Carr
-
-    handleEvent('.header__cart-wrap','.header__cart-list')
 
     handleNavbar()
    

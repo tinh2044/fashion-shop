@@ -1235,7 +1235,7 @@ function start () {
     handleEvent('.header__navbar-item-notifi','.header__notifi')
     // Handle List Carr
 
-    handleEvent('.header__cart-wrap','.header__cart-list')
+    handleEvent('.header__navbar-item--has-qr','.header__qr')
 
     handleNavbar()
    

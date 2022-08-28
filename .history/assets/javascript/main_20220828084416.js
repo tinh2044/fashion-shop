@@ -269,10 +269,10 @@ function handleNavbar() {
 }
 
 function handleEvent (elementBtn,elementLayout) {
-        const btn = $(elementBtn)
+        const qtn = $(elementBtn)
         const layout = $(elementLayout)
         var isOpen = false
-        btn.onclick = () => {
+        qrBtn.onclick = () => {
             if (isOpen) {
                 isOpen = !isOpen
                 layout.style.display = 'none'
@@ -284,6 +284,7 @@ function handleEvent (elementBtn,elementLayout) {
         }
 
 
+    handleQrCode()
 }
 
 function reder() {
@@ -1227,15 +1228,8 @@ function start () {
     Validator('#register-form')
 
     Validator('#login-form')
-    // Handle Qr Code 
 
-    handleEvent('.header__navbar-item--has-qr','.header__qr')
-    // Handle Notifications
-
-    handleEvent('.header__navbar-item-notifi','.header__notifi')
-    // Handle List Carr
-
-    handleEvent('.header__cart-wrap','.header__cart-list')
+    handleEvent()
 
     handleNavbar()
    

@@ -122,16 +122,7 @@
         display: none;
     }
     /* Bar on tablet */
-    .header__navbar-overlay {
-        position: fixed;
-        top: 0;
-        right: 0;
-        left: 0;
-        bottom: 0;
-        background-color: rgba(0,0,0,0.2);
-        z-index: 4;
-        display: none;
-    }
+
     .header__bar-mobile-tablet {
         display: none;
         position: fixed;
@@ -165,7 +156,6 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        z-index: 5;
     }
     .header__navbar-bar-icon {
         margin-top:12px;
@@ -269,45 +259,54 @@
     
     }
     .header__navbar-avatar {
-        width: 80px;
-        height: 80px;
+        width: 60px;
+        height: 60px;
         border-radius: 100%;
         border: 0.5px solid rgba(0,0,0,0.2);
     }
     .header__navbar-user-name {
-        /* margin-left: 4px; */
+        margin-left: 4px;
         font-weight: 400;
-        font-size: 3rem;
+        font-size: 1.4rem;
     }
     .header__navbar-user-menu {
         top: 100%;
-        right: -4px;
+        right: 0;
         padding: 0;
-        width: calc(100% + 8px);
+        width: 160px;
         display: none;
         list-style: none;
         border-radius: 2px;
         position: absolute;
         box-shadow: 0 0 3px #999 ;
         animation: fadeIn linear .2s;
-        background-color: #999;
+        background-color: var(--white-color);
         z-index: 1;
     }
     .header__navbar-user-menu::before {
-        display: none;
+        top:-28px;
+        content: "";
+        right: 30px;
+        position: absolute;
+        border-style: solid;
+        border-width: 20px 28px;
+        border-color: transparent transparent #fff transparent;
+    
     }
-    .header__navbar-user-item:first-child {
-        display: none;
+    .header__navbar-user-menu::after {
+        right: 0;
+        top:-12px;
+        content: '';
+        height:24px;
+        width: 100%;
+        position: absolute;
     }
     .header__navbar-user-item a{
         display: block;
-        font-size: 4rem;
-        padding: 32px 10px;
-        font-weight:400;
+        font-size: 1.4rem;
+        padding: 8px 10px;
         text-decoration: none;
-        color: var(--white-color);
-        border-bottom: 0.5px solid #ccc;
-        border-top: 0.5px solid #ccc;
+        color: var(--text-color);
     }
     .header__navbar-user-item a:hover {
         opacity: 1;
