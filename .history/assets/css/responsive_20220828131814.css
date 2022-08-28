@@ -304,12 +304,8 @@
         font-size: 2rem;
     }
     .header__navbar-icon{
-        font-size: 2rem;
+        font-size: 1.5rem;
     
-    }
-    .header__navbar-item-icon:nth-child(3) {
-        margin-right: 12px;
-
     }
     /* Header_QR */
     .header__qr{

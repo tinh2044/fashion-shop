@@ -307,10 +307,6 @@
         font-size: 2rem;
     
     }
-    .header__navbar-item-icon:nth-child(3) {
-        margin-right: 12px;
-
-    }
     /* Header_QR */
     .header__qr{
         left: 102%;
